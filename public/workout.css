@@ -1,0 +1,483 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    background-color: #000;
+    color: #ffff;
+    height: 12vh;
+    align-items: center;
+    position:absolute;
+}
+#bar{
+  position: absolute;
+  left: 50%;
+  visibility: hidden;
+}
+.logo{
+    width: 20%;   
+}
+.log{
+  position: relative;
+  left: 12%;
+}
+.menu{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.sign{
+    display: flex;
+    justify-content: end;
+}
+.signup{
+  background-color: #FF0103;
+  color:#ffffff;
+  border: none;
+  padding: 9px 12px 9px 12px;
+  
+}
+.login{
+  background-color:#030304;
+  color:#ffffff;
+  border: none;
+  padding: 9px 12px 9px 12px;
+  
+}
+.ul-nav{
+width:70% ;
+display: flex;
+justify-content: center;
+color: #ffff;
+justify-content: space-evenly;
+align-items: center;
+
+}
+li{
+list-style-type: none;
+}
+a{
+color: #fff;
+text-decoration: none;
+}
+.firstsection{
+  padding: 12vh 0vh 0vh 0vh;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: #ffffff;
+}
+.oneright{
+    width: 50%;
+    height: 100vh;
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.red{
+  color:#FF0103
+}
+.onepra{
+  color:#fff;
+  margin-left: auto;
+  width: 80%;
+  font-weight: 400;
+  font-size: 20px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ 
+}
+.oneheading{
+  margin-left: auto;
+  width: 80%;
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  
+}
+.onespan{
+  font-size: 10px;
+  
+}
+.btn{
+  background-color: #fff;
+  color:#000;
+  padding: 6px 12px 6px 12px;
+  margin: 0px 9px 0px 0px ;
+
+}
+.boxbtn{
+  margin-left: auto;
+  width: 80%;
+
+}
+.oneleft{
+    width: 50%;
+    height: 100vh;
+    background-color: #000;
+}
+.hero{
+    width: 80%;
+    height: 100vh;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+.thirdsection{
+ width: 100%;
+
+}
+.threebox{
+    width: 50%;
+}
+.threeimg{
+width: 95%;
+margin-left: auto;
+margin-right: auto;
+}
+.threemain{
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 95%;
+}
+.mainimg{
+    width: 50%;
+}
+.big{
+    width: 100%;
+    height: 350px;
+}
+
+.three{
+height: 170px;
+width: 45%;
+margin-left: 10px;
+}
+.threeheading{
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+.twobox{
+display: flex;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 60px;
+justify-content: space-around;
+
+}
+.bro{
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+}
+.bro:hover{
+    border: none;
+    border-bottom: 3px solid #000;
+    width: 140px;
+}
+.twoimg{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 200px;
+}
+.twospan{
+    position: relative;
+    bottom: 50%;
+    left: 6%;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.twoimgs{
+    width: 100%;
+   height: 200px;
+
+}
+.twoheading{
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+
+}
+.twopra{
+    margin: 20px 0px 20px 0px;
+}
+.icon{
+margin-left: auto;
+margin-right: auto;
+width: 90%;
+text-align: center;
+}
+i{
+    margin: 0px 10px 0px 10px;
+   
+}
+ .foursection{
+     width: 100%;
+     margin: 60px 0px 150px 0px ;
+ }
+ .price{
+   width: 100%;
+    display: flex;
+ }
+ .john{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .daisy{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .fourspan{
+   font-weight: 600;
+   font-size: 20px;
+   position: relative;
+   bottom: 25%;
+   margin: 0px 0px 0px 10px;
+ }
+ .fourimg{
+    width: 90px;
+    height: 90px;
+ }
+.fourpra{
+    width:90% ;
+margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+}
+.fourbox{
+  position: relative;
+  text-align: center;
+  height: 45%;
+}
+.foot{
+  width: 100%;
+  background-color: #000;
+  height: 300px;
+  margin: 40px 0px 0px 0px ;
+}
+.footbox{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+}
+.footpra{
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  color:#fff;
+}
+.footmenu{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  justify-content: space-between;
+   padding: 40px 0px 0px 0px;
+    width: 70%;
+  color:#fff;
+}
+.footicon{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  
+}
+.footlogo{
+  margin: 20px 0px 10px;
+}
+.ifoot{
+  margin:60px 20px 20px 20px;
+  color: #ffff;
+}
+@media screen and (max-width:830px){
+
+header{
+flex-direction: column;
+align-items: flex-start;
+}
+.logo{
+    width: 100%;
+}
+
+.log{
+  top:50%;
+  left: 5%;
+}
+#bar{
+  left: 90%;
+  top:30%;
+  visibility: visible;
+
+}
+.toggle{
+  visibility: hidden;
+}
+.menu{
+  flex-direction: column;
+  width: 70%;
+  color: #ffffff;
+  height: 100vh;
+  background-color: #030304;
+  position: relative;
+  top:-57%
+}
+.ul-nav{
+  width: 100%;
+flex-direction: column;
+ color: #ffff;
+ text-align: center;
+ height: 80vh;
+ background-color: #030304;
+ justify-content: space-evenly;
+}
+.sign{
+  height: 20vh;
+  width: 100%;
+  text-align: center;
+  background-color: #030304;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.signup{
+  width: 80%;
+  margin: 0px 0px 0px 20px;
+}
+.login{
+  width: 80%;
+  margin: 0px 0px 0px 10px;
+}
+button{
+  display: block;
+}
+.firstsection{
+  padding: 12vh 0vh 0vh 0vh;
+    flex-direction:column-reverse;
+    height: 100vh;
+  }
+  .boxbtn{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .oneheading{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .onepra{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .oneright{
+    width: 100%;
+    height: 50vh;
+  }
+  .hero{
+    height: 50vh;
+  }
+  .oneleft{
+    width: 100%;
+    height: 50vh;
+  }
+  .twosection{
+    width: 100%;
+    height: 300px;
+    margin: 20px 0px 100px 0px;
+  }
+  .twobox{
+    width: 90%;
+  }
+  .twoimg{
+    margin-top: 20px;
+    height: 150px;
+  }
+  .twoimgs{
+    height: 150px;
+  }
+  .thirdsection{
+    width: 100%;
+  
+  }
+.threebox{
+    justify-content: center;
+align-items: center;
+width: 95%;
+margin-top: 20px;
+margin-left: auto;
+
+
+  }
+   .threemain{
+    flex-direction: column;
+    
+   }
+   .mainimg{
+    width: 100%;
+   }
+   .foursection{
+    margin-bottom: 100px;
+   }
+  .price{
+    flex-direction: column;
+    
+  }
+  .john{
+    width: 90%;
+  }
+  .daisy{
+    width: 90%;
+  }
+  .fourbox{
+    height: 110px;
+    text-align: none;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  .fourspan{
+    position: relative;
+    bottom: 25%;
+    margin: 0px 0px 0px 20px;
+  }
+.fixed{
+width: 35%;
+}
+.footmenu{
+width: 90%;
+}
+}
+
+
+@media screen and (max-width:430px){
+  .sixbox{
+    width: 70%;
+  }
+  .footmenu{
+    width: 90%;
+  }
+  .oneheading{
+    font-size: 30px;
+  }
+  .onepra{
+    font-size:14px
+  }
+}
